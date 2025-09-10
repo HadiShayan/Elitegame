@@ -1,4 +1,4 @@
-const sheetUrl = 'YOUR_SHEET_CSV_LINK'; // لینک CSV منتشر شده از گوگل شیت
+const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQsAW_pp71tvFKFpS1eP34xv4W18w-Tw5VZ0Z6VE_oiCMy0m96mH2Wlfqr0oBANcw/pub?gid=163578941&single=true&output=csv'; // لینک CSV منتشر شده از گوگل شیت
 
 fetch(sheetUrl)
   .then(response => response.text())
